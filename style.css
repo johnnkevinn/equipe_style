@@ -62,7 +62,7 @@ img{
 .texto-branco {
     color: white;
     font-size: 80px;
-    text-align: center;
+    text-align: start;
 
 }
 button{
@@ -72,4 +72,12 @@ button{
     border: none;
     background-color: red;
     color: white;
+}
+
+.columnTextAndButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 50px;
 }
