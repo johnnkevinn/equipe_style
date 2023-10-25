@@ -1,4 +1,6 @@
-
+body {
+    background-color: black;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -47,4 +49,27 @@ header {
 }
 .container button:active {
     background-color: rgba(107, 0, 0, 0.815);
+}
+
+.corpo{
+    display: flex;
+    align-items:center
+}
+img{
+    width: 700px;
+    
+}
+.texto-branco {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+
+}
+button{
+
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
 }
